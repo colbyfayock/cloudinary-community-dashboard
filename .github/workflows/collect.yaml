@@ -1,6 +1,7 @@
 name: Collect
 
-on: [push, pull_request]
+on:
+  workflow_dispatch:
 
 jobs:
   collect:
@@ -9,15 +10,14 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Uses Node.js 18
-      uses: actions/setup-node@v1
+    - uses: actions/setup-node@v3
       with:
         node-version: 18
 
-    - run: npm install
+    - run: npm ci
 
     - run: node scripts/collect.js
 
-    - uses: mikeal/publish-to-github-action@master
+    - uses: mikeal/publish-to-github-action@main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
