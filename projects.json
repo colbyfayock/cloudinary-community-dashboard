@@ -1,0 +1,32 @@
+[
+  {
+    "id": "next-cloudinary",
+    "title": "Next Cloudinary",
+    "npm": "next-cloudinary",
+    "github": "colbyfayock/next-cloudinary"
+  },
+  {
+    "id": "@cloudinary-util/url-loader",
+    "title": "Cloudinary Util - URL Loader",
+    "npm": "@cloudinary-util/url-loader",
+    "github": "colbyfayock/cloudinary-util"
+  },
+  {
+    "id": "@cloudinary-util/util",
+    "title": "Cloudinary Util - Util",
+    "npm": "@cloudinary-util/util",
+    "github": "colbyfayock/cloudinary-util"
+  },
+  {
+    "id": "gatsby-source-cloudinary",
+    "title": "Gatsby Source Cloudinary",
+    "npm": "gatsby-source-cloudinary",
+    "github": "cloudinary-devs/gatsby-source-cloudinary"
+  },
+  {
+    "id": "gatsby-transformer-cloudinary",
+    "title": "Gatsby Transformer Cloudinary",
+    "npm": "gatsby-transformer-cloudinary",
+    "github": "cloudinary-devs/gatsby-transformer-cloudinary"
+  }
+]

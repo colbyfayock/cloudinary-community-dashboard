@@ -1,4 +1,36 @@
 ---
+import fs from 'node:fs/promises';
+
+import Dashboard from '../components/Dashboard.jsx';
+
+import projects from '../../projects.json';
+
+import '../styles/global.css';
+
+const files = await fs.readdir('./reports');
+
+const reports = await Promise.all(files.map(async (file) => {
+	const url = new URL(`../../reports/${file}`, import.meta.url);
+	const json = await fs.readFile(url, 'utf-8');
+	return {
+		date: file.replace('.json', ''),
+		data: JSON.parse(json)
+	};
+}));
+
+const data = projects.reduce((prev, curr) => {
+	prev[curr.id] = {
+		...curr,
+		reports: reports.map(report => {
+			return {
+				date: report.date,
+				data: report.data.find(({ id }) => id === curr.id),
+			}
+		})
+	};
+	return prev;
+}, {})
+console.log('data', data)
 ---
 
 <html lang="en">
@@ -11,5 +43,15 @@
 	</head>
 	<body>
 		<h1>Astro</h1>
+		{Object.keys(data).map(projectId => {
+			const project = data[projectId];
+			console.log('project', project)
+			return (
+				<>
+					<h2>{ project.title }</h2>
+					<Dashboard {...project} client:load />
+				</>
+			)
+		})}
 	</body>
 </html>
