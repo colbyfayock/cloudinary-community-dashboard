@@ -4,7 +4,7 @@ import { promises as fs } from 'fs';
 
 import projects from '../projects.json' assert { type: 'json' };
 
-const date = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);
+const date = new Date(Date.now() - 14 * 24 * 60 * 60 * 1000);
 const dateWeekBefore = new Date(date - 7 * 24 * 60 * 60 * 1000);
 
 const results = await Promise.all(projects.map(async ({ id, npm, github }) => {
