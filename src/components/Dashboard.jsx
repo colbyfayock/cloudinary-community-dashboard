@@ -6,7 +6,7 @@ const Dashboard = ({ reports, }) => {
   const projectDataSorted = sortByDateKey(reports, 'date');
 
   const latestProjectData = projectDataSorted[projectDataSorted.length - 1];
-console.log('latestProjectData', latestProjectData)
+// console.log('latestProjectData', latestProjectData)
   const categories = [
     {
       title: "Latest Version",

@@ -1,21 +1,18 @@
 ---
-import fs from 'node:fs/promises';
-
 import Dashboard from '../components/Dashboard.jsx';
 
 import projects from '../../projects.json';
 
 import '../styles/global.css';
 
-const files = await fs.readdir('./reports');
+const posts = import.meta.glob(`../../reports/*.json`);
 
-const reports = await Promise.all(files.map(async (file) => {
-	const url = new URL(`../../reports/${file}`, import.meta.url);
-	const json = await fs.readFile(url, 'utf-8');
+const reports = await Promise.all(Object.keys(posts).map(async key => {
+	const { default: data } = await posts[key]();
 	return {
-		date: file.replace('.json', ''),
-		data: JSON.parse(json)
-	};
+		data,
+		date: key.replace('../../reports/', '').replace('.json', '')
+	}
 }));
 
 const data = projects.reduce((prev, curr) => {
@@ -29,8 +26,7 @@ const data = projects.reduce((prev, curr) => {
 		})
 	};
 	return prev;
-}, {})
-console.log('data', data)
+}, {});
 ---
 
 <html lang="en">
@@ -45,7 +41,6 @@ console.log('data', data)
 		<h1>Astro</h1>
 		{Object.keys(data).map(projectId => {
 			const project = data[projectId];
-			console.log('project', project)
 			return (
 				<>
 					<h2>{ project.title }</h2>
