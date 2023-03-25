@@ -1,6 +1,13 @@
 import { Card, AreaChart, Title, Text, Metric, Icon, Flex, Grid } from "@tremor/react";
 import { StarIcon, CubeIcon, CalendarDaysIcon } from "@heroicons/react/24/solid";
 
+function formatDate(dateString) {
+  const date = new Date(dateString);
+  const month = date.getMonth();
+  const day = date.getDate();
+  const year = date.getFullYear();
+  return `${month}/${day}/${year}`;
+}
 
 const Dashboard = ({ reports, }) => {
   const projectDataSorted = sortByDateKey(reports, 'date');
@@ -12,48 +19,41 @@ const Dashboard = ({ reports, }) => {
       title: "Latest Version",
       metric: latestProjectData.data.latest,
       icon: CubeIcon,
-      color: "indigo",
+      color: "purple",
     },
     {
       title: "Last Published",
       metric: new Date(latestProjectData.data.lastPublished).toLocaleDateString(),
       icon: CalendarDaysIcon,
-      color: "indigo",
+      color: "green",
     },
     {
       title: "Stars",
       metric: latestProjectData.data.stars,
       icon: StarIcon,
-      color: "indigo",
+      color: "yellow",
     },
   ];
 
-  const dataTotal = projectDataSorted.map(({ date: dateString, data }) => {
-    const date = new Date(dateString);
-    const month = date.getMonth();
-    const day = date.getDate();
-    const year = date.getFullYear();
+  const downloadsTotal = projectDataSorted.map(({ date, data }) => {
     return {
-      Day: `${month}/${day}/${year}`,
-      Downloads: data.downloadsTotal
+      Day: formatDate(date),
+      Downloads: data.downloads
     }
   });
 
-  const dataByVersion = projectDataSorted.map(({ date: dateString, data }) => {
-    const date = new Date(dateString);
-    const month = date.getMonth();
-    const day = date.getDate();
-    const year = date.getFullYear();
+  const downloadsByVersion = projectDataSorted.map(({ date, data }) => {
+    const versions = Object.keys(data.versions).reduce((prev, curr) => {
+      prev[curr] = data.versions[curr].downloads;
+      return prev;
+    }, {})
     return {
-      Day: `${month}/${day}/${year}`,
-      ...data.downloadsByVersion
+      Day: formatDate(date),
+      ...versions
     }
   });
 
-  console.log('data', dataTotal)
-  console.log('dataByVersion', dataByVersion)
-
-  const versions = Object.keys(latestProjectData.data.downloadsByVersion);
+  const versions = Object.keys(latestProjectData.data.versions);
 
   return (
     <>
@@ -80,18 +80,18 @@ const Dashboard = ({ reports, }) => {
         <Text>Total Downloads</Text>
         <AreaChart
           className="mt-4 h-80"
-          data={dataTotal}
+          data={downloadsTotal}
           index="Day"
           categories={["Downloads"]}
-          colors={["indigo", "fuchsia"]}
+          colors={["indigo"]}
         />
         <Text>Downloads by Version</Text>
         <AreaChart
           className="mt-4 h-80"
-          data={dataByVersion}
+          data={downloadsByVersion}
           index="Day"
           categories={versions}
-          colors={["indigo", "fuchsia"]}
+          colors={["rose", "fuchsia", "violet", "blue", "teal", "green", "yellow", "orange", "red", "slate"]}
         />
       </Card>
     </>
