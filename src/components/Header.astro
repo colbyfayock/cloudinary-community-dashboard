@@ -1,0 +1,19 @@
+---
+import { Icon } from 'astro-icon';
+
+import Section from './Section.astro';
+import Container from './Container.astro';
+---
+<header>
+  <Section>
+    <Container class="flex justify-between items-center">
+      <p class="text-xl font-bold m-0">Cloudinary Community Dashboard</p>
+      <p class="m-0">
+        <a href="https://github.com/colbyfayock">
+          <span class="sr-only">Github</span>
+          <Icon class="w-6" name="mdi:github" />
+        </a>
+      </p>
+    </Container>
+  </Section>
+</header>

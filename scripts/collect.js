@@ -4,27 +4,35 @@ import { promises as fs } from 'fs';
 
 import projects from '../projects.json' assert { type: 'json' };
 
-const date = new Date(Date.now() - 14 * 24 * 60 * 60 * 1000);
-const dateWeekBefore = new Date(date - 7 * 24 * 60 * 60 * 1000);
+const range = 'last-week';
 
 const results = await Promise.all(projects.map(async ({ id, npm, github }) => {
-  const projectNpm = await fetch(`https://registry.npmjs.org/${npm}`).then(r => r.json());
+  // Collect npmjs.org stats
+
+  const projectNpm = await getNpmProject({ id: npm });
   const latest = projectNpm?.['dist-tags']?.latest;
   const lastPublished = projectNpm?.time?.[latest];
+  
+  const downloads = await getNpmDownloads({
+    id: npm,
+    range
+  });
 
-  const projectGitHub = await fetch(`https://api.github.com/repos/${github}`).then(r => r.json());
+  const downloadsByVersion = await getNpmDownloadsByVersion({
+    id: npm,
+    range
+  });
 
-  const rangeStart = `${date.getFullYear()}-${date.getMonth()}-${date.getDate()}`;
-  const rangeEnd = `${dateWeekBefore.getFullYear()}-${dateWeekBefore.getMonth()}-${dateWeekBefore.getDate()}`
+  const versions = Object.keys(downloadsByVersion).reduce((prev, curr) => {
+    prev[curr] = {
+      downloads: downloadsByVersion[curr]
+    }
+    return prev;
+  }, {});
 
-  // const sevenDaysAgo: Date = new Date()  
+  // Get GitHub project info
 
-  const { downloads: downloadsByVersion } = await fetch(`https://api.npmjs.org/versions/${npm.replace('/', '%2F')}/last-week`).then(r => r.json());
-  // const { downloads: downloadsTotal } = await fetch(`https://api.npmjs.org/downloads/point/last-week/${npm.replace('/', '%2F')}`).then(r => r.json());
-  const { downloads: downloadsTotal } = await fetch(`https://api.npmjs.org/downloads/point/${rangeEnd}:${rangeStart}/${npm.replace('/', '%2F')}`).then(r => r.json());
-
-  console.log('npm', npm)
-  console.log('downloadsTotal', downloadsTotal)
+  const projectGitHub = await getGitHubProject({ id: github });
 
   return {
     id,
@@ -32,10 +40,46 @@ const results = await Promise.all(projects.map(async ({ id, npm, github }) => {
     github,
     latest,
     lastPublished,
-    downloadsByVersion,
-    downloadsTotal,
+    downloads,
+    versions,
+    range,
     stars: projectGitHub.stargazers_count
   }
 }));
 
-await fs.writeFile(`./reports/${date.toISOString()}.json`, JSON.stringify(results, null, 2));
+await fs.writeFile(`./reports/${new Date(Date.now()).toISOString()}.json`, JSON.stringify(results, null, 2));
+
+/**
+ * getNpmDownloads
+ */
+
+async function getNpmDownloads({ id, rangeType = 'point', range = 'last-week' }) {
+  const { downloads } = await fetch(`https://api.npmjs.org/downloads/${rangeType}/${range}/${id.replace('/', '%2F')}`).then(r => r.json());
+  return downloads;
+}
+
+/**
+ * getNpmDownloadsByVersion
+ */
+
+async function getNpmDownloadsByVersion({ id, range = 'last-week' }) {
+  const { downloads } = await fetch(`https://api.npmjs.org/versions/${id.replace('/', '%2F')}/${range}`).then(r => r.json());
+  return downloads;
+}
+
+
+/**
+ * getNpmProject
+ */
+
+async function getNpmProject({ id }) {
+  return fetch(`https://registry.npmjs.org/${id}`).then(r => r.json());
+}
+
+/**
+ * getGitHubProject
+ */
+
+async function getGitHubProject({ id }) {
+  return fetch(`https://api.github.com/repos/${id}`).then(r => r.json());
+}

@@ -6,7 +6,7 @@ const Dashboard = ({ reports, }) => {
   const projectDataSorted = sortByDateKey(reports, 'date');
 
   const latestProjectData = projectDataSorted[projectDataSorted.length - 1];
-// console.log('latestProjectData', latestProjectData)
+
   const categories = [
     {
       title: "Latest Version",
@@ -50,12 +50,15 @@ const Dashboard = ({ reports, }) => {
     }
   });
 
+  console.log('data', dataTotal)
+  console.log('dataByVersion', dataByVersion)
+
   const versions = Object.keys(latestProjectData.data.downloadsByVersion);
 
   return (
     <>
       <Title>{ latestProjectData.title }</Title>
-      <Grid numColsSm={2} numColsLg={3} className="gap-6">
+      <Grid numColsSm={2} numColsLg={3} className="gap-6 mb-6">
         {categories.map((item) => (
           <Card key={item.title} decoration="top" decorationColor={item.color}>
             <Flex justifyContent="start" className="space-x-4">
@@ -82,14 +85,14 @@ const Dashboard = ({ reports, }) => {
           categories={["Downloads"]}
           colors={["indigo", "fuchsia"]}
         />
-        {/* <Text>Downloads by Version</Text>
+        <Text>Downloads by Version</Text>
         <AreaChart
           className="mt-4 h-80"
           data={dataByVersion}
-          categories={versions}
           index="Day"
+          categories={versions}
           colors={["indigo", "fuchsia"]}
-        /> */}
+        />
       </Card>
     </>
   )
