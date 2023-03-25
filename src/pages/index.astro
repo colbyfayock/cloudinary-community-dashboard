@@ -5,32 +5,27 @@ import Section from '../components/Section.astro';
 import Container from '../components/Container.astro';
 import Dashboard from '../components/Dashboard.jsx';
 
+import { getReportsFromModule, collectProjectReports } from '../lib/reports';
+
 import projects from '../../projects.json';
 
 import '../styles/global.css';
 
-const posts = import.meta.glob(`../../reports/*.json`);
+const weekly = import.meta.glob('../../reports/weekly/*.json');
+const daily = import.meta.glob('../../reports/daily/*.json');
 
-const reports = await Promise.all(Object.keys(posts).map(async key => {
-	const { default: data } = await posts[key]();
-	return {
-		data,
-		date: key.replace('../../reports/', '').replace('.json', '')
-	}
-}));
+const [reportsWeekly, reportsDaily] = await Promise.all([weekly, daily].map(getReportsFromModule));
 
-const data = projects.reduce((prev, curr) => {
-	prev[curr.id] = {
-		...curr,
-		reports: reports.map(report => {
-			return {
-				date: report.date,
-				data: report.data.find(({ id }) => id === curr.id),
-			}
-		})
-	};
-	return prev;
-}, {});
+const data = collectProjectReports(projects, [
+	{
+		id: 'weekly',
+		reports: reportsWeekly
+	},
+	{
+		id: 'daily',
+		reports: reportsDaily
+	},
+]);
 ---
 
 <LayoutPage>

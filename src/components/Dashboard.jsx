@@ -9,41 +9,46 @@ function formatDate(dateString) {
   return `${month}/${day}/${year}`;
 }
 
-const Dashboard = ({ reports, }) => {
-  const projectDataSorted = sortByDateKey(reports, 'date');
+const Dashboard = ({ daily, weekly }) => {
+  const dailySorted = sortByDateKey(daily, 'date');
+  const latestDaily = dailySorted[dailySorted.length - 1];
+  const { lastPublished, stars, latest } = latestDaily?.data || {};
 
-  const latestProjectData = projectDataSorted[projectDataSorted.length - 1];
+  const weeklySorted = sortByDateKey(weekly, 'date');
+  const latestWeekly = weeklySorted[weeklySorted.length - 1]
+
+  const versions = latestWeekly?.data && Object.keys(latestWeekly.data.versions);
 
   const categories = [
     {
-      title: "Latest Version",
-      metric: latestProjectData.data.latest,
+      title: 'Latest Version',
+      metric: latest,
       icon: CubeIcon,
-      color: "purple",
+      color: 'purple',
     },
     {
-      title: "Last Published",
-      metric: new Date(latestProjectData.data.lastPublished).toLocaleDateString(),
+      title: 'Last Published',
+      metric: new Date(lastPublished).toLocaleDateString(),
       icon: CalendarDaysIcon,
-      color: "green",
+      color: 'green',
     },
     {
-      title: "Stars",
-      metric: latestProjectData.data.stars,
+      title: 'Stars',
+      metric: stars,
       icon: StarIcon,
-      color: "yellow",
+      color: 'yellow',
     },
   ];
 
-  const downloadsTotal = projectDataSorted.map(({ date, data }) => {
+  const dataDownloadsTotal = dailySorted.map(({ date, data }) => {
     return {
       Day: formatDate(date),
       Downloads: data.downloads
     }
   });
 
-  const downloadsByVersion = projectDataSorted.map(({ date, data }) => {
-    const versions = Object.keys(data.versions).reduce((prev, curr) => {
+  const dataDownloadsByVersion = weeklySorted.map(({ date, data }) => {
+    const versions = data?.versions && Object.keys(data.versions).reduce((prev, curr) => {
       prev[curr] = data.versions[curr].downloads;
       return prev;
     }, {})
@@ -53,11 +58,9 @@ const Dashboard = ({ reports, }) => {
     }
   });
 
-  const versions = Object.keys(latestProjectData.data.versions);
-
   return (
     <>
-      <Title>{ latestProjectData.title }</Title>
+      <Title>{ latestWeekly?.title }</Title>
       <Grid numColsSm={2} numColsLg={3} className="gap-6 mb-6">
         {categories.map((item) => (
           <Card key={item.title} decoration="top" decorationColor={item.color}>
@@ -77,18 +80,18 @@ const Dashboard = ({ reports, }) => {
         ))}
       </Grid>
       <Card>
-        <Text>Total Downloads</Text>
+        <Text className="text-md font-semibold">Total Downloads</Text>
         <AreaChart
-          className="mt-4 h-80"
-          data={downloadsTotal}
+          className="mt-4 mb-8 h-80"
+          data={dataDownloadsTotal}
           index="Day"
           categories={["Downloads"]}
           colors={["indigo"]}
         />
-        <Text>Downloads by Version</Text>
+        <Text className="text-md font-semibold">Downloads by Version</Text>
         <AreaChart
           className="mt-4 h-80"
-          data={downloadsByVersion}
+          data={dataDownloadsByVersion}
           index="Day"
           categories={versions}
           colors={["rose", "fuchsia", "violet", "blue", "teal", "green", "yellow", "orange", "red", "slate"]}
