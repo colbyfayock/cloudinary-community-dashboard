@@ -1,13 +1,8 @@
 import { Card, AreaChart, Title, Text, Metric, Icon, Flex, Grid } from "@tremor/react";
 import { StarIcon, CubeIcon, CalendarDaysIcon } from "@heroicons/react/24/solid";
 
-function formatDate(dateString) {
-  const date = new Date(dateString);
-  const month = date.getMonth();
-  const day = date.getDate();
-  const year = date.getFullYear();
-  return `${month}/${day}/${year}`;
-}
+import { formatDate } from '../lib/datetime';
+import { sortByDateKey } from '../lib/util';
 
 const Dashboard = ({ daily, weekly }) => {
   const dailySorted = sortByDateKey(daily, 'date');
@@ -102,7 +97,3 @@ const Dashboard = ({ daily, weekly }) => {
 }
 
 export default Dashboard;
-
-function sortByDateKey(arr, key) {
-  return arr.sort((a, b) => new Date(a[key]) - new Date(b[key]));
-}
