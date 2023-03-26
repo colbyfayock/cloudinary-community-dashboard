@@ -18,7 +18,7 @@ jobs:
 
     - run: npm ci
 
-    - run: node scripts/collect.js
+    - run: node scripts/collect-daily.js
 
     - uses: mikeal/publish-to-github-action@master
       env:
