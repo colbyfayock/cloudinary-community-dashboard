@@ -1,7 +1,7 @@
 import * as dotenv from 'dotenv';
 import { google } from 'googleapis';
 
-import { YOUTUBE_CHANNEL_ID_CLOUDINARY } from '../data/youtube';
+import { YOUTUBE_CHANNEL_ID_CLOUDINARY } from '../data/youtube.js';
 
 dotenv.config();
 
