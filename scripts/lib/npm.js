@@ -1,3 +1,12 @@
+// https://github.com/npm/registry/blob/master/docs/download-counts.md
+
+/**
+ * getNpmLastDay
+ */
+
+export async function getNpmLastDay() {
+  return fetch(`https://api.npmjs.org/downloads/point/last-day/`).then(r => r.json());
+}
 /**
  * getNpmDownloads
  */
