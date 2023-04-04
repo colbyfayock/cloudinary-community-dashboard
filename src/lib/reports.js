@@ -26,3 +26,15 @@ export function collectProjectReports(projects, reports) {
     return prev;
   }, {});
 }
+
+export function getTotalByType({ data, key, type }) {
+	const dataOfType = data.filter(d => d.type === type);
+	return dataOfType.map(({ date, data }) => {
+		const counts = data.map((d) => d[key].count);
+		const total = counts.reduce((prev, curr) => prev + curr)
+		return {
+			date,
+			[key]: total
+		}
+	});
+}

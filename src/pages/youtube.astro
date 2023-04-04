@@ -1,0 +1,51 @@
+---
+import LayoutPage from '../layouts/LayoutPage.astro';;
+
+import Section from '../components/Section.astro';
+import Container from '../components/Container.astro';
+import DashboardYouTube from '../components/DashboardYouTube.jsx';
+
+import { getReportsFromModule, getTotalByType } from '../lib/reports';
+
+import '../styles/global.css';
+
+const weekly = import.meta.glob('../../reports/weekly/*.json');
+const daily = import.meta.glob('../../reports/daily/*.json');
+
+const reports = await Promise.all([weekly, daily].map(getReportsFromModule));
+
+const youtube = reports.flat()
+									.filter(({ data }) => !!data?.youtube)
+									.map(report => {
+										return {
+											...report,
+											data: report.data.youtube
+										}
+									});
+
+const data = {
+	totalViews: {
+		title: 'Total Views',
+		keys: ['views'],
+		daily: getTotalByType({
+			data: youtube,
+			key: 'views',
+			type: 'daily'
+		})
+	}
+}
+---
+
+<LayoutPage>
+	<Section>
+		<Container>
+			<h1 class="text-3xl font-bold">YouTube</h1>
+		</Container>
+	</Section>
+	<Section>
+		<Container>
+			<h2 class="text-2xl font-normal text-slate-500 mb-6">Dev Hints</h2>
+			<DashboardYouTube data={data} client:load />
+		</Container>
+	</Section>
+</LayoutPage>

@@ -8,12 +8,22 @@ import Container from './Container.astro';
   <Section>
     <Container class="flex justify-between items-center">
       <p class="text-xl font-bold m-0">Cloudinary Community Dashboard</p>
-      <p class="m-0">
-        <a href="https://github.com/colbyfayock/cloudinary-community-dashboard">
-          <span class="sr-only">Github</span>
-          <Icon class="w-6" name="mdi:github" />
-        </a>
-      </p>
+      <div class="flex flex-end items-center">
+        <ul class="flex items-center mr-8">
+          <li class="mr-5">
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/youtube/">YouTube</a>
+          </li>
+        </ul>
+        <p class="m-0">
+          <a href="https://github.com/colbyfayock/cloudinary-community-dashboard">
+            <span class="sr-only">Github</span>
+            <Icon class="w-6" name="mdi:github" />
+          </a>
+        </p>
+      </div>
     </Container>
   </Section>
 </header>

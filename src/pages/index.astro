@@ -14,18 +14,25 @@ import '../styles/global.css';
 const weekly = import.meta.glob('../../reports/weekly/*.json');
 const daily = import.meta.glob('../../reports/daily/*.json');
 
-const [reportsWeekly, reportsDaily] = await Promise.all([weekly, daily].map(getReportsFromModule));
+const reports = await Promise.all([weekly, daily].map(getReportsFromModule));
 
-const data = collectProjectReports(projects, [
-	{
-		id: 'weekly',
-		reports: reportsWeekly
-	},
-	{
-		id: 'daily',
-		reports: reportsDaily
-	},
-]);
+// console.log('reportsWeekly', reportsWeekly)
+// console.log('reportsDaily', reportsDaily)
+
+// const data = collectProjectReports(projects, [
+// 	{
+// 		id: 'weekly',
+// 		reports: reportsWeekly
+// 	},
+// 	{
+// 		id: 'daily',
+// 		reports: reportsDaily
+// 	},
+// ]);
+
+const data = [];
+
+console.log('data', data)
 ---
 
 <LayoutPage>

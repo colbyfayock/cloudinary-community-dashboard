@@ -67,7 +67,7 @@ const reportsYouTube = videosData.map(video => {
     id: video.id,
     category: 'Dev Hints',
     likes: {
-      count: video.statistics.likeCount,
+      count: typeof video.statistics.likeCount === 'string' && parseInt(video.statistics.likeCount),
       date: date.toISOString()
     },
     publishedAt: video.snippet.publishedAt,
@@ -76,7 +76,7 @@ const reportsYouTube = videosData.map(video => {
     title: video.snippet.title,
     url: `https://www.youtube.com/watch?v=${video.id}`,
     views: {
-      count: video.statistics.viewCount,
+      count: typeof video.statistics.viewCount === 'string' && parseInt(video.statistics.viewCount),
       date: date.toISOString()
     }
   }
