@@ -6,6 +6,7 @@ import Container from '../components/Container.astro';
 import DashboardYouTube from '../components/DashboardYouTube.jsx';
 
 import { getReportsFromModule, getTotalByType } from '../lib/reports';
+import { sortByKey } from '../lib/util';
 
 import '../styles/global.css';
 
@@ -23,14 +24,49 @@ const youtube = reports.flat()
 										}
 									});
 
+function getTotalViewsByVideo({ data }) {
+	const videos = {};
+
+	data.forEach(report => {
+		report.data.forEach(video => {
+			if ( !videos[video.id] ) {
+				videos[video.id] = {
+					count: 0,
+					video
+				};
+			}
+			videos[video.id].count = videos[video.id].count + video.views.count;
+		})
+	})
+
+	const videoData = Object.keys(videos).map(id => {
+		return {
+			id,
+			...videos[id]
+		}
+	});
+
+	const sortedVideoData = sortByKey(videoData, 'count', 'desc');
+	
+	return sortedVideoData;
+}
+
 const data = {
 	totalViews: {
 		title: 'Total Views',
 		keys: ['views'],
+		type: 'chart',
 		daily: getTotalByType({
 			data: youtube,
 			key: 'views',
 			type: 'daily'
+		})
+	},
+	topVideos: {
+		title: 'Top Videos',
+		type: 'list',
+		all: getTotalViewsByVideo({
+			data: youtube
 		})
 	}
 }
