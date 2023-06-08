@@ -24,31 +24,45 @@ const youtube = reports.flat()
 										}
 									});
 
-function getTotalViewsByVideo({ data }) {
-	const videos = {};
-
-	data.forEach(report => {
-		report.data.forEach(video => {
-			if ( !videos[video.id] ) {
-				videos[video.id] = {
-					count: 0,
-					video
-				};
+function getTotalViewsByVideo({ data, type }) {
+	if ( type === 'all' ) {
+		const videos = data[data.length - 1].data.map((video) => {
+			return {
+				count: video.views.count,
+				video
 			}
-			videos[video.id].count = videos[video.id].count + video.views.count;
 		})
-	})
 
-	const videoData = Object.keys(videos).map(id => {
-		return {
-			id,
-			...videos[id]
-		}
-	});
+		const videoData = Object.keys(videos).map(id => {
+			return {
+				id,
+				...videos[id]
+			}
+		});
 
-	const sortedVideoData = sortByKey(videoData, 'count', 'desc');
+		const sortedVideoData = sortByKey(videoData, 'count', 'desc');
+		
+		return sortedVideoData;
+	}
+
+	// const videos = {};
+
+	// const videos = reports.forEach(video => {
+	// 	if ( !videos[video.id] ) {
+	// 		videos[video.id] = {
+	// 			count: 0,
+	// 			video
+	// 		};
+	// 	}
+	// 	// console.log('video.id', video.id)
+	// 	// console.log('videos[video.id]', videos[video.id])
+	// 	// console.log('video', video)
+	// 	// console.log('videos[video.id].count', videos[video.id].count)
+	// 	videos[video.id].count = videos[video.id].count + video.views.count;
+	// 	// console.log('videos[video.id].count', videos[video.id].count)
+	// })
+
 	
-	return sortedVideoData;
 }
 
 const data = {
@@ -62,13 +76,14 @@ const data = {
 			type: 'daily'
 		})
 	},
-	// topVideos: {
-	// 	title: 'Top Videos',
-	// 	type: 'list',
-	// 	all: getTotalViewsByVideo({
-	// 		data: youtube
-	// 	})
-	// }
+	topVideos: {
+		title: 'Top Videos',
+		type: 'list',
+		all: getTotalViewsByVideo({
+			data: youtube,
+			type: 'all'
+		})
+	}
 }
 ---
 

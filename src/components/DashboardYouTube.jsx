@@ -33,9 +33,16 @@ const DashboardYouTube = ({ data }) => {
               }
             })
           }
+          const total = sortedData.data[sortedData.data.length - 1].views
           return (
             <Card key={id} className="my-8">
-              <Text className="text-md font-semibold">{ report.title }</Text>
+              <Flex>
+                <div>
+                  <Title>{ report.title }</Title>
+                  <Text className="text-md font-normal">All Time</Text>
+                </div>
+                <Text className="text-md font-normal">{ addCommas(total) }</Text>
+              </Flex>
               <AreaChart
                 className="mt-4 mb-8 h-60"
                 data={sortedData.data}
@@ -52,7 +59,7 @@ const DashboardYouTube = ({ data }) => {
             <div key={id}>
               <Card className="my-8">
                 <Title>{ report.title }</Title>
-                {/* <Text>{item.name}</Text> */}
+                <Text className="text-md font-normal">All Time</Text>
                 <List className="mt-4">
                   {report.all.map(({ video, count }) => (
                     <ListItem key={video.id}>
@@ -72,7 +79,7 @@ const DashboardYouTube = ({ data }) => {
                           </Text>
                         </div>
                       </Flex>
-                      <Text>{count}</Text>
+                      <Text>{ addCommas(count) }</Text>
                     </ListItem>
                   ))}
                 </List>

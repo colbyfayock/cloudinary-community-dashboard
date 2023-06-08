@@ -38,3 +38,25 @@ export function getTotalByType({ data, key, type }) {
 		}
 	});
 }
+
+export function getTotalViewsByVideo({ data, type }) {
+	if ( type === 'all' ) {
+		const videos = data[data.length - 1].data.map((video) => {
+			return {
+				count: video.views.count,
+				video
+			}
+		})
+
+		const videoData = Object.keys(videos).map(id => {
+			return {
+				id,
+				...videos[id]
+			}
+		});
+
+		const sortedVideoData = sortByKey(videoData, 'count', 'desc');
+		
+		return sortedVideoData;
+	}
+}
