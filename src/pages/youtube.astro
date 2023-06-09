@@ -5,8 +5,8 @@ import Section from '../components/Section.astro';
 import Container from '../components/Container.astro';
 import DashboardYouTube from '../components/DashboardYouTube.jsx';
 
-import { getReportsFromModule, getTotalByType } from '../lib/reports';
-import { sortByKey } from '../lib/util';
+import { getReportsFromModule } from '../lib/reports';
+import { getTotalByType, getTotalViewsByVideo } from '../lib/youtube';
 
 import '../styles/global.css';
 
@@ -24,65 +24,46 @@ const youtube = reports.flat()
 										}
 									});
 
-function getTotalViewsByVideo({ data, type }) {
-	if ( type === 'all' ) {
-		const videos = data[data.length - 1].data.map((video) => {
-			return {
-				count: video.views.count,
-				video
-			}
-		})
 
-		const videoData = Object.keys(videos).map(id => {
-			return {
-				id,
-				...videos[id]
-			}
-		});
 
-		const sortedVideoData = sortByKey(videoData, 'count', 'desc');
-		
-		return sortedVideoData;
-	}
-
-	// const videos = {};
-
-	// const videos = reports.forEach(video => {
-	// 	if ( !videos[video.id] ) {
-	// 		videos[video.id] = {
-	// 			count: 0,
-	// 			video
-	// 		};
-	// 	}
-	// 	// console.log('video.id', video.id)
-	// 	// console.log('videos[video.id]', videos[video.id])
-	// 	// console.log('video', video)
-	// 	// console.log('videos[video.id].count', videos[video.id].count)
-	// 	videos[video.id].count = videos[video.id].count + video.views.count;
-	// 	// console.log('videos[video.id].count', videos[video.id].count)
-	// })
-
-	
-}
-
-const data = {
+const dataDevHints = {
 	totalViews: {
 		title: 'Total Views',
 		keys: ['views'],
 		type: 'chart',
-		daily: getTotalByType({
-			data: youtube,
-			key: 'views',
-			type: 'daily'
-		})
+		reports: {
+			all: getTotalByType({
+				data: youtube,
+				key: 'views',
+				type: 'all',
+				intervalType: 'daily',
+			}),
+			lastMonth: getTotalByType({
+				data: youtube,
+				key: 'views',
+				type: 'lastMonth',
+				intervalType: 'daily',
+			}),
+		}
 	},
 	topVideos: {
 		title: 'Top Videos',
 		type: 'list',
-		all: getTotalViewsByVideo({
-			data: youtube,
-			type: 'all'
-		})
+		reports: {
+			all: {
+				data: getTotalViewsByVideo({
+					data: youtube,
+					type: 'all'
+				}),
+			},
+			lastMonth: {
+				data: getTotalViewsByVideo({
+					data: youtube,
+					type: 'lastMonth'
+				}),
+			}
+		}
+		
 	}
 }
 ---
@@ -90,13 +71,11 @@ const data = {
 <LayoutPage>
 	<Section>
 		<Container>
-			<h1 class="text-3xl font-bold">YouTube</h1>
-		</Container>
-	</Section>
-	<Section>
-		<Container>
-			<h2 class="text-2xl font-normal text-slate-500 mb-6">Dev Hints</h2>
-			<DashboardYouTube data={data} client:load />
+			<DashboardYouTube
+				title="Dev Hints"
+				reports={dataDevHints}
+				client:load
+			/>
 		</Container>
 	</Section>
 </LayoutPage>
