@@ -12,6 +12,7 @@
   "dependencies": {
     "@astrojs/react": "^2.1.0",
     "@astrojs/tailwind": "^3.1.1",
+    "@cloudinary-util/url-loader": "^3.8.1",
     "@heroicons/react": "^2.0.16",
     "@tremor/react": "^3.0.0",
     "@types/react": "^18.0.28",

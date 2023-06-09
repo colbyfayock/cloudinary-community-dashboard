@@ -1,6 +1,59 @@
 import { sortByKey, sortByDateKey, addCommas } from '../lib/util';
 import { formatDate } from '../lib/datetime';
 
+const ECOSYSTEM_TAGS = [
+  {
+    name: 'Flutter',
+    variants: ['flutter'],
+    color: 'cyan'
+  },
+  {
+    name: 'Next.js',
+    variants: ['next', 'nextjs', 'next.js'],
+    color: 'slate'
+  },
+  {
+    name: 'Node.js',
+    variants: ['node', 'nodejs', 'node.js'],
+    color: 'lime'
+  },
+  {
+    name: 'Python',
+    variants: ['python'],
+    color: 'yellow'
+  },
+  {
+    name: 'React.js',
+    variants: ['react', 'reactjs', 'react.js'],
+    color: 'blue'
+  },
+  {
+    name: 'Remix',
+    variants: ['remix', 'remixjs', 'remix.js'],
+    color: 'fuchsia'
+  },
+  {
+    name: 'SolidJS',
+    variants: ['solid', 'solidjs', 'solid.js'],
+    color: 'indigo'
+  },
+  {
+    name: 'Svelte',
+    variants: ['svelte', 'sveltekit'],
+    color: 'red'
+  },
+  {
+    name: 'Vue',
+    variants: ['vue', 'vuejs', 'vue.js', 'nuxt'],
+    color: 'emerald'
+  },
+  {
+    name: 'WordPress',
+    variants: ['wordpress'],
+    color: 'sky'
+  },
+]
+
 /**
  * getTotalByType
  */
@@ -91,7 +144,9 @@ export function getTotalViewsByVideo({ data, type }) {
       id: video.id,
       title: video.title,
       link: video.url,
-      value: videos[id].count
+      value: video.views.count,
+      thumbnail: video.thumbnails.maxres,
+      tags: getEcosytemTagsFromVideoTags(video.tags)
     }
   });
 
@@ -105,4 +160,22 @@ export function getTotalViewsByVideo({ data, type }) {
   });
 		
 	return formattedData;
+}
+
+function getEcosytemTagsFromVideoTags(videoTags) {
+  const tags = [];
+
+  ECOSYSTEM_TAGS.forEach(({ name, variants }) => {
+    variants.forEach(variant => {
+      videoTags.forEach(tag => {
+        if ( tag.toLowerCase().includes(variant.toLowerCase()) ) {
+          tags.push(name);
+        }
+      })
+    })
+  });
+
+  return Array.from(new Set(tags)).map(tag => {
+    return ECOSYSTEM_TAGS.find(({ name }) => name === tag)
+  });
 }

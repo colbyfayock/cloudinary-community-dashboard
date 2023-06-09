@@ -1,17 +1,19 @@
 import { useState } from 'react';
+import { constructCloudinaryUrl } from '@cloudinary-util/url-loader';
 
 import {
   AreaChart,
   Card,
   List,
   ListItem,
+  Badge,
   Icon,
   Text,
   Bold,
   Flex,
   Metric,
   Title,
-  Subtitle,
+Subtitle,
   Button,
   Grid,
   Select,
@@ -74,13 +76,13 @@ const DashboardYouTube = ({ title: dashboardTitle, reports }) => {
 
         if ( report.type === 'list' ) {
           return (
-            <div key={id}>
+            <Grid key={id} numItemsSm={1} numItemsLg={2} className="gap-6">
               <DashboardList
                 title={report.title}
                 subtitle={reportConfig[reportType].label}
                 items={report.reports[reportType].data}
               />
-            </div>
+            </Grid>
           )
         }
       })}
@@ -112,27 +114,87 @@ const DashboardChart = ({ title, subtitle, label, data, index, keys, valueFormat
   )
 }
 
+const defaultSelectedTag = 'all';
+
 const DashboardList = ({ title, subtitle, items }) => {
+  const [selectedTag, setSelectedTag] = useState(defaultSelectedTag);
+
+  const availableTags = Array.from(new Set(items.flatMap(({ tags }) => tags.map(tag => tag.name)))).sort();
+
+  const activeItems = selectedTag === defaultSelectedTag ? items : items.filter(({ tags }) => {
+    return tags.find(tag => tag.name === selectedTag);
+  });
+
+  function handleOnTagChange(value) {
+    setSelectedTag(value);
+  }
+
   return (
     <Card className="my-8">
-      <Title>{ title }</Title>
-      <Subtitle>{ subtitle }</Subtitle>
+      <Flex>
+        <div>
+          <Title>{ title }</Title>
+          <Subtitle>{ subtitle }</Subtitle>
+        </div>
+        <div className="max-w-sm">
+          <Select onValueChange={handleOnTagChange} defaultValue={selectedTag}>
+            <SelectItem value={defaultSelectedTag}>
+              All
+            </SelectItem>
+            {availableTags.map(tag => {
+              return (
+                <SelectItem key={tag} value={tag}>
+                  { tag }
+                </SelectItem>
+              )
+            })}
+          </Select>
+        </div>
+      </Flex>
       <List className="mt-4">
-        {items.map(item => (
-          <ListItem key={item.id}>
-            <Flex justifyContent="start" className="truncate space-x-4">
-              <div className="truncate">
-                <Text className="truncate">
-                  <Bold>{ item.title }</Bold>
-                </Text>
-                <Text className="truncate">
-                  <a href={item.link} target="_blank">{ item.link }</a>
-                </Text>
-              </div>
-            </Flex>
-            <Text>{ item.value }</Text>
-          </ListItem>
-        ))}
+        {activeItems.map(item => {
+          const width = 160;
+          const height = 90;
+          const thumbnailUrl = constructCloudinaryUrl({
+            options: {
+              src: `community-dashboard-thumbnails/${item.thumbnail.url.replace('https://i.ytimg.com/vi/', '')}`,
+              width: width * 2,
+              height: height * 2
+            },
+            config: {
+              cloud: {
+                cloudName: import.meta.env.PUBLIC_CLOUDINARY_CLOUD_NAME
+              }
+            }
+          });
+          return (
+            <ListItem key={item.id}>
+              <Flex alignItems="start">
+                <Flex justifyContent="start" alignItems="start" className="truncate space-x-4">
+                  <img className="rounded-sm" width={width} height={height} src={thumbnailUrl} alt="Video Cover" />
+                  <div className="truncate">
+                    <Text className="truncate mb-1">
+                      <Bold>{ item.title }</Bold>
+                    </Text>
+                    <Subtitle className="truncate text-sm mb-3">
+                      <a href={item.link} target="_blank">{ item.link }</a>
+                    </Subtitle>
+                    <Flex justifyContent="start" className="gap-1">
+                      { item.tags.map(tag => {
+                        return (
+                          <Badge key={tag.name} color={ tag.color }>
+                            { tag.name }
+                          </Badge>
+                        );
+                      })}
+                    </Flex>
+                  </div>
+                </Flex>
+                <Text>{ item.value }</Text>
+              </Flex>
+            </ListItem>
+          )
+        })}
       </List>
     </Card>
   )
