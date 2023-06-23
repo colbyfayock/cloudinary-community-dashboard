@@ -6,7 +6,7 @@ import Container from '../components/Container.astro';
 import DashboardYouTube from '../components/DashboardYouTube.jsx';
 
 import { getReportsFromModule } from '../lib/reports';
-import { getTotalByType, getTotalViewsByVideo } from '../lib/youtube';
+import { getTotalsByType, getViewsByVideo } from '../lib/youtube';
 
 import '../styles/global.css';
 
@@ -32,15 +32,13 @@ const dataDevHints = {
 		keys: ['views'],
 		type: 'chart',
 		reports: {
-			all: getTotalByType({
+			all: getTotalsByType({
 				data: youtube,
-				key: 'views',
 				type: 'all',
 				intervalType: 'daily',
 			}),
-			lastMonth: getTotalByType({
+			lastMonth: getTotalsByType({
 				data: youtube,
-				key: 'views',
 				type: 'lastMonth',
 				intervalType: 'daily',
 			}),
@@ -51,13 +49,13 @@ const dataDevHints = {
 		type: 'list',
 		reports: {
 			all: {
-				data: getTotalViewsByVideo({
+				data: getViewsByVideo({
 					data: youtube,
 					type: 'all'
 				}),
 			},
 			lastMonth: {
-				data: getTotalViewsByVideo({
+				data: getViewsByVideo({
 					data: youtube,
 					type: 'lastMonth'
 				}),
