@@ -1,0 +1,3097 @@
+{
+  "projects": [
+    {
+      "id": "@cloudinary-util/url-loader",
+      "latest": "5.2.1",
+      "lastPublished": "2024-03-06T21:10:27.919Z",
+      "downloads": {
+        "count": 3212,
+        "date": "2024-03-18T00:00:00.000Z"
+      },
+      "stars": {
+        "count": 10,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "@cloudinary-util/util",
+      "latest": "3.0.0",
+      "lastPublished": "2024-01-16T20:54:12.336Z",
+      "downloads": {
+        "count": 4216,
+        "date": "2024-03-18T00:00:00.000Z"
+      },
+      "stars": {
+        "count": 10,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "gatsby-source-cloudinary",
+      "latest": "0.6.0",
+      "lastPublished": "2023-10-14T13:17:24.730Z",
+      "downloads": {
+        "count": 83,
+        "date": "2024-03-18T00:00:00.000Z"
+      },
+      "stars": {
+        "count": 28,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "gatsby-transformer-cloudinary",
+      "latest": "4.5.0",
+      "lastPublished": "2023-08-01T06:55:37.461Z",
+      "downloads": {
+        "count": 93,
+        "date": "2024-03-18T00:00:00.000Z"
+      },
+      "stars": {
+        "count": 69,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "next-cloudinary",
+      "latest": "6.3.0",
+      "lastPublished": "2024-03-12T20:49:34.626Z",
+      "downloads": {
+        "count": 3008,
+        "date": "2024-03-18T00:00:00.000Z"
+      },
+      "stars": {
+        "count": 217,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "nuxt-cloudinary",
+      "latest": "2.6.0",
+      "lastPublished": "2024-02-22T10:09:47.499Z",
+      "downloads": {
+        "count": 298,
+        "date": "2024-03-18T00:00:00.000Z"
+      },
+      "stars": {
+        "count": 244,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "svelte-cloudinary",
+      "latest": "1.3.1",
+      "lastPublished": "2024-03-17T01:21:40.115Z",
+      "downloads": {
+        "count": 52,
+        "date": "2024-03-18T00:00:00.000Z"
+      },
+      "stars": {
+        "count": 23,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    }
+  ],
+  "youtube": [
+    {
+      "id": "paiO6M2wBqE",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 237,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2022-10-18T12:00:37Z",
+      "tags": [
+        "cloudinary",
+        "react",
+        "cloudinary upload widget react",
+        "cloudinary upload widget",
+        "upload image in react js",
+        "upload image javascript",
+        "upload images cloudinary react",
+        "upload image in react",
+        "upload video",
+        "upload video react js",
+        "upload video react",
+        "cloudinary video upload react",
+        "react image upload",
+        "react video upload",
+        "react video upload component",
+        "upload widget",
+        "upload widget cloudinary react",
+        "cloudinary react",
+        "cloudinary react upload",
+        "cloudinary react tutorial",
+        "cloudinary react widget"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/paiO6M2wBqE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/paiO6M2wBqE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/paiO6M2wBqE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/paiO6M2wBqE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/paiO6M2wBqE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Uploading Images & Videos in React with the Cloudinary Upload Widget - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=paiO6M2wBqE",
+      "views": {
+        "count": 24888,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "hGzVY88q8I0",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 161,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-04-04T12:00:34Z",
+      "tags": [
+        "node upload image",
+        "upload image nodejs",
+        "upload image node",
+        "upload image to cloudinary node js",
+        "upload image in node js api",
+        "cloudinary image upload node js",
+        "cloudinary node js",
+        "cloudinary node sdk",
+        "uploading images to cloudinary",
+        "upload multiple images to cloudinary",
+        "cloudinary upload api",
+        "cloudinary upload node js",
+        "cloudinary upload multiple images node js",
+        "cloudinary uploader",
+        "cloudinary upload file",
+        "image upload in node js",
+        "multiple image upload in node js",
+        "cloudinary"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/hGzVY88q8I0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/hGzVY88q8I0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/hGzVY88q8I0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/hGzVY88q8I0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/hGzVY88q8I0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Uploading Images in Node.js with the Cloudinary Node SDK - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=hGzVY88q8I0",
+      "views": {
+        "count": 18016,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "sNqfQZI9WdU",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 88,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-03-14T12:00:38Z",
+      "tags": [
+        "react video player",
+        "play video reactjs",
+        "react video player tutorial",
+        "react video player example",
+        "cloudinary video player",
+        "cloudinary video",
+        "cloudinary video player react",
+        "cloudinary react",
+        "cloudinary",
+        "cloudinary react video player",
+        "cloudinary react component",
+        "cloudinary react video"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/sNqfQZI9WdU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/sNqfQZI9WdU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/sNqfQZI9WdU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/sNqfQZI9WdU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/sNqfQZI9WdU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Play Video in React with the Cloudinary Video Player - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=sNqfQZI9WdU",
+      "views": {
+        "count": 13364,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "Et7TTfwvBFo",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 59,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-04-11T12:00:20Z",
+      "tags": [
+        "embed video nextjs",
+        "nextjs video",
+        "next js video player",
+        "nextjs video component",
+        "nextjs video optimization",
+        "nextjs video embed",
+        "embedded video",
+        "embedded video nextjs",
+        "next js cloudinary",
+        "next js cloudinary video",
+        "next js cloudinary video player",
+        "video player nextjs",
+        "cloudinary video player",
+        "cloudinary video player nextjs",
+        "cloudinary nextjs",
+        "next cloudinary"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Et7TTfwvBFo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Et7TTfwvBFo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Et7TTfwvBFo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Et7TTfwvBFo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/Et7TTfwvBFo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Embedding a Video Player in Next.js with Next Cloudinary - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=Et7TTfwvBFo",
+      "views": {
+        "count": 12080,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "5L5YoFm1obk",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 147,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-10-31T12:00:04Z",
+      "tags": [
+        "nextjs server actions",
+        "server actions in next js",
+        "upload files server actions",
+        "cloudinary nextjs",
+        "cloudinary next js tutorial",
+        "nextjs server actions upload image",
+        "nextjs server actions upload file",
+        "nextjs server actions upload to server",
+        "nextjs cloudinary",
+        "nextjs cloudinary upload",
+        "upload image to cloudinary nextjs",
+        "upload to cloudinary server actions",
+        "upload to cloudinary server nodejs"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/5L5YoFm1obk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/5L5YoFm1obk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/5L5YoFm1obk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/5L5YoFm1obk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/5L5YoFm1obk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Use Server Actions to Upload Files in Next.js 14 with Cloudinary - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=5L5YoFm1obk",
+      "views": {
+        "count": 10704,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "twkImfEsnAs",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 74,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2022-09-06T15:01:44Z",
+      "tags": [
+        "next image",
+        "nextjs image",
+        "nextjs image component",
+        "next js image loader",
+        "next js image optimization",
+        "next js cloudinary",
+        "cloudinary nextjs",
+        "next js loader",
+        "next js loader cloudinary",
+        "cloudinary nextjs images",
+        "nextjs image domain",
+        "next image loader",
+        "next image loader example",
+        "next image domain",
+        "cloudinary url nextjs",
+        "next js image optimization cloudinary"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/twkImfEsnAs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/twkImfEsnAs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/twkImfEsnAs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/twkImfEsnAs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/twkImfEsnAs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Next.js Image Component with Cloudinary (Next.js 12 and below) - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=twkImfEsnAs",
+      "views": {
+        "count": 9661,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "YZ7lZvcZlgA",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 40,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2022-12-13T13:00:30Z",
+      "tags": [
+        "cloudinary",
+        "cloudinary install",
+        "cloudinary install node.js",
+        "cloudinary node js",
+        "using cloudinary in node js",
+        "cloudinary configuration",
+        "cloudinary config",
+        "configure cloudinary",
+        "configure cloudinary nodejs",
+        "nodejs",
+        "install cloudinary",
+        "install cloudinary in node",
+        "cloudinary api key",
+        "cloudinary api docs",
+        "cloudinary api nodejs",
+        "cloudinary api secret",
+        "cloudinary environment variable",
+        "cloudinary nodejs",
+        "cloudinary node",
+        "cloudinary node js example",
+        "cloudinary node setup"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/YZ7lZvcZlgA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/YZ7lZvcZlgA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/YZ7lZvcZlgA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/YZ7lZvcZlgA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/YZ7lZvcZlgA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Install & Configure Cloudinary in Node.js - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=YZ7lZvcZlgA",
+      "views": {
+        "count": 6953,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "oj2-BcZ8szk",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 33,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2022-11-15T13:00:34Z",
+      "tags": [
+        "cldimage",
+        "next cloudinary",
+        "nextjs",
+        "cloudinary",
+        "cloudinary nextjs",
+        "image optimization",
+        "cloudinary next js image",
+        "cloudinary nextjs loader",
+        "next js image optimization",
+        "next js image loader",
+        "nextjs image sizes",
+        "nextjs image responsive",
+        "nextjs image component and image optimization",
+        "cloudinary responsive",
+        "next js responsive image",
+        "nextjs components",
+        "next js image crop",
+        "cloudinary image cropping",
+        "cloudinary image resize"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/oj2-BcZ8szk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/oj2-BcZ8szk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/oj2-BcZ8szk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/oj2-BcZ8szk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/oj2-BcZ8szk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Automatic Image Optimization & Dynamic Cropping in Next.js with Next Cloudinary - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=oj2-BcZ8szk",
+      "views": {
+        "count": 6028,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "1SIp9VL5TMo",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 30,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-01-24T20:38:57Z",
+      "tags": [
+        "cloudinary api key",
+        "cloudinary api secret",
+        "cloudinary cloud name",
+        "cloudinary",
+        "cloudinary credentials",
+        "cloudinary key",
+        "cloudinary secret",
+        "cloudinary reset api key",
+        "cloudinary regenerate api key",
+        "cloudinary disable api key"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/1SIp9VL5TMo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/1SIp9VL5TMo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/1SIp9VL5TMo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/1SIp9VL5TMo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/1SIp9VL5TMo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Finding Your Cloudinary API Key, Cloud Name, and Credentials - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=1SIp9VL5TMo",
+      "views": {
+        "count": 5477,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "01dy6J9PXzY",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 41,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-05-02T12:00:01Z",
+      "tags": [
+        "react image gallery",
+        "react image gallery library",
+        "react image gallery tutorial",
+        "react picture gallery",
+        "react js image gallery",
+        "react cloudinary",
+        "cloudinary react image",
+        "cloudinary react image gallery",
+        "cloudinary",
+        "image gallery in react js",
+        "image gallery react",
+        "image gallery javascript",
+        "cloudinary product gallery"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/01dy6J9PXzY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/01dy6J9PXzY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/01dy6J9PXzY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/01dy6J9PXzY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/01dy6J9PXzY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Image Gallery in React with Cloudinary - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=01dy6J9PXzY",
+      "views": {
+        "count": 3742,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "fUOWEYgVq4Q",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 28,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-05-16T12:00:33Z",
+      "tags": [
+        "upload video in nodejs",
+        "upload video node js express",
+        "cloudinary upload api",
+        "cloudinary uploader",
+        "cloudinary upload file",
+        "cloudinary upload video",
+        "cloudinary upload video api",
+        "cloudinary upload video nodejs",
+        "cloudinary video upload node js",
+        "upload video",
+        "nodejs upload file",
+        "nodejs upload video",
+        "upload video to cloudinary node js",
+        "cloudinary",
+        "cloudinary video upload"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/fUOWEYgVq4Q/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/fUOWEYgVq4Q/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/fUOWEYgVq4Q/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/fUOWEYgVq4Q/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/fUOWEYgVq4Q/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Upload Videos in Node.js with the Cloudinary Node SDK - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=fUOWEYgVq4Q",
+      "views": {
+        "count": 3417,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "FlifTBr8pV8",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 29,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2022-10-03T12:00:10Z",
+      "tags": [
+        "cloudinary",
+        "cloudinary add ons",
+        "cloudinary auto tagging",
+        "cloudinary tagging",
+        "cloudinary google auto tagging",
+        "tag image",
+        "organize images",
+        "media library",
+        "tag images on upload",
+        "google auto tagging",
+        "google vision",
+        "content analysis",
+        "image ai",
+        "ai image analysis",
+        "automatic image tagging software",
+        "image categorization software",
+        "image categorization cloudinary",
+        "cloudinary image upload javascript",
+        "node image upload",
+        "node image tagging"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/FlifTBr8pV8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/FlifTBr8pV8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/FlifTBr8pV8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/FlifTBr8pV8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/FlifTBr8pV8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Tag Images Automatically with AI in Node.js Using Cloudinary - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=FlifTBr8pV8",
+      "views": {
+        "count": 3016,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "JOLoCDHqXy8",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 22,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-04-25T12:00:19Z",
+      "tags": [
+        "resize image react js",
+        "resize image react",
+        "crop image react",
+        "crop image reactjs",
+        "react crop image",
+        "react resize image",
+        "cloudinary",
+        "cloudinary react",
+        "cloudinary javascript",
+        "cloudinary javascript sdk",
+        "image resize",
+        "image crop",
+        "image crop javascript",
+        "image resize javascript"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/JOLoCDHqXy8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/JOLoCDHqXy8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/JOLoCDHqXy8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/JOLoCDHqXy8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/JOLoCDHqXy8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Crop & Resize Images in React with Cloudinary - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=JOLoCDHqXy8",
+      "views": {
+        "count": 2816,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "Q6EzklQ3JLU",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 12,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2022-11-15T13:00:14Z",
+      "tags": [
+        "nextjs",
+        "cloudinary",
+        "next cloudinary",
+        "cldogimage",
+        "open graph and twitter card tags",
+        "open graph react",
+        "social media card",
+        "social media card design",
+        "how to make social media card",
+        "cloudinary nextjs",
+        "cloudinary next js image",
+        "cloudinary open graph",
+        "cloudinary social media",
+        "cloudinary social media card",
+        "nextjs social media",
+        "social media nextjs",
+        "social media card nextjs",
+        "social media card cloudinary",
+        "open graph image",
+        "open graph image card",
+        "twitter card",
+        "twitter card tutorial"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Q6EzklQ3JLU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Q6EzklQ3JLU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Q6EzklQ3JLU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Q6EzklQ3JLU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/Q6EzklQ3JLU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Dynamic Social Media Cards in Next.js with Next Cloudinary - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=Q6EzklQ3JLU",
+      "views": {
+        "count": 2675,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "ixswutBQfvE",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 23,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-08-16T14:32:47Z",
+      "tags": [
+        "flutter image upload",
+        "flutter image upload to api",
+        "flutter image upload to rest api",
+        "flutter image upload to server",
+        "cloudinary flutter",
+        "flutter upload image",
+        "flutter upload image to rest api",
+        "flutter upload file",
+        "upload image in flutter",
+        "upload image in flutter app",
+        "upload image in flutter api",
+        "upload image to server in flutter"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/ixswutBQfvE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ixswutBQfvE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ixswutBQfvE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ixswutBQfvE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/ixswutBQfvE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Upload Images in Flutter with Cloudinary - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=ixswutBQfvE",
+      "views": {
+        "count": 2602,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "5CDCycp6L4c",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 29,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-07-11T12:00:03Z",
+      "tags": [
+        "optimize videos",
+        "video optimization",
+        "video compression",
+        "optimize video for web",
+        "optimize video for website",
+        "optimize video nextjs",
+        "nextjs video",
+        "next js video player",
+        "nextjs video optimization",
+        "crop video",
+        "resize video",
+        "resize video nextjs",
+        "crop video nextjs",
+        "nextjs video crop",
+        "nextjs video resizer",
+        "next cloudinary",
+        "cloudinary video player",
+        "cloudinary video player nextjs"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/5CDCycp6L4c/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/5CDCycp6L4c/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/5CDCycp6L4c/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/5CDCycp6L4c/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/5CDCycp6L4c/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Optimize Videos in Next.js with Next Cloudinary - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=5CDCycp6L4c",
+      "views": {
+        "count": 2492,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "ohk6dRJfwrU",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 11,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-02-07T13:00:36Z",
+      "tags": [
+        "smart crop",
+        "smart cropping",
+        "smart cropping tool",
+        "ai crop",
+        "ai crop tool",
+        "ai video crop",
+        "ai crop video",
+        "dynamic crop video",
+        "dynamic cropping tool",
+        "dynamic cropping",
+        "video crop",
+        "video cropper",
+        "cloudinary video",
+        "cloudinary video crop",
+        "cloudinary video cropping",
+        "crop video cloudinary",
+        "crop video size",
+        "content aware ai"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/ohk6dRJfwrU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ohk6dRJfwrU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ohk6dRJfwrU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ohk6dRJfwrU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/ohk6dRJfwrU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Smart Video Cropping with Content-Aware AI - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=ohk6dRJfwrU",
+      "views": {
+        "count": 2305,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "6vAPN4R592U",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 29,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-10-10T12:00:06Z",
+      "tags": [
+        "next cloudinary",
+        "cloudinary nextjs",
+        "nextjs cloudinary",
+        "nextjs remove background",
+        "cloudinary remove background",
+        "cloudinary nextjs image",
+        "cloudinary nextjs 13",
+        "nextjs background remover",
+        "nextjs image component",
+        "next js image optimization",
+        "image optimization next js",
+        "next cloudinary package"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/6vAPN4R592U/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/6vAPN4R592U/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/6vAPN4R592U/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/6vAPN4R592U/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/6vAPN4R592U/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Install & Configure Cloudinary in Next.js - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=6vAPN4R592U",
+      "views": {
+        "count": 2262,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "8Ow9B6HEeQM",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 15,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-03-21T12:00:09Z",
+      "tags": [
+        "ai image analysis",
+        "cloudinary",
+        "cloudinary add ons",
+        "cloudinary auto tagging",
+        "cloudinary tagging",
+        "cloudinary google auto tagging",
+        "tag image",
+        "organize images",
+        "media library",
+        "tag images on upload",
+        "google auto tagging",
+        "google vision",
+        "content analysis",
+        "image ai",
+        "automatic image tagging software",
+        "image categorization software",
+        "image categorization cloudinary",
+        "python image tagging",
+        "python image upload",
+        "python ai",
+        "python tag images",
+        "python image analysis",
+        "python image processing"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/8Ow9B6HEeQM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/8Ow9B6HEeQM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/8Ow9B6HEeQM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/8Ow9B6HEeQM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/8Ow9B6HEeQM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Tag Images Automatically with AI in Python Using Google Auto Tagging & Cloudinary - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=8Ow9B6HEeQM",
+      "views": {
+        "count": 2196,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "W5CpUWksq2s",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 27,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2022-09-27T11:00:30Z",
+      "tags": [
+        "cloudinary wordpress",
+        "cloudinary wordpress plugin",
+        "cloudinary wordpress tutorial",
+        "wordpress plugin",
+        "wordpress plugins for beginners",
+        "wordpress plugin optimize speed",
+        "wordpress optimization plugin",
+        "wordpress plugin to optimize images",
+        "wordpress site optimization plugin",
+        "optimize images for website",
+        "optimize images for wordpress",
+        "optimize images wordpress plugin",
+        "wordpress image optimization plugin",
+        "wordpress image compress",
+        "wordpress cloudinary",
+        "cloudinary",
+        "cloudinary plugin"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/W5CpUWksq2s/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/W5CpUWksq2s/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/W5CpUWksq2s/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/W5CpUWksq2s/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/W5CpUWksq2s/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Optimize Images & Videos in WordPress Automatically with the Cloudinary WordPress Plugin - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=W5CpUWksq2s",
+      "views": {
+        "count": 2054,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "ULp6-UjQA3o",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 36,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-12-26T14:00:27Z",
+      "tags": [
+        "upload image next js",
+        "upload image next js 13",
+        "upload image next js 14",
+        "upload image cloudinary nextjs",
+        "next upload image",
+        "cloudinary image upload next",
+        "cloudinary image upload nextjs",
+        "next js video upload",
+        "upload video nextjs",
+        "upload files nextjs",
+        "upload files nextjs 13",
+        "uploading files in next js 13",
+        "upload files to cloudinary nextjs",
+        "upload image to cloudinary nextjs",
+        "upload videos to cloudinary nextjs",
+        "next cloudinary",
+        "next-cloudinary upload",
+        "nextjs cloudinary"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/ULp6-UjQA3o/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ULp6-UjQA3o/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ULp6-UjQA3o/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ULp6-UjQA3o/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/ULp6-UjQA3o/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Uploading Images & Videos in Next.js with Cloudinary - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=ULp6-UjQA3o",
+      "views": {
+        "count": 2114,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "FvlbR3JEY_w",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 13,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-02-21T13:00:18Z",
+      "tags": [
+        "vue js upload image",
+        "vue js upload file",
+        "vuejs upload multiple files",
+        "vuejs upload",
+        "vuejs upload video",
+        "vue js 3 file upload",
+        "vue image upload",
+        "vue image upload made easy",
+        "vue image upload example",
+        "vue js multiple image upload",
+        "vue cloudinary",
+        "vue upload cloudinary",
+        "vue upload cloudinary image",
+        "cloudinary upload widget",
+        "cloudinary upload image",
+        "cloudinary upload image vue js",
+        "cloudinary upload image vue 3",
+        "vue cloudinary upload widget",
+        "vue cloudinary upload"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/FvlbR3JEY_w/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/FvlbR3JEY_w/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/FvlbR3JEY_w/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/FvlbR3JEY_w/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/FvlbR3JEY_w/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Uploading Images & Videos in Vue.js with the Cloudinary Upload Widget - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=FvlbR3JEY_w",
+      "views": {
+        "count": 1817,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "mKmWW_s5_vM",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 22,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-02-14T13:00:38Z",
+      "tags": [
+        "svelte upload file",
+        "uploading images in svelte",
+        "svelte image upload",
+        "sveltekit upload file",
+        "sveltekit upload",
+        "sveltekit image upload",
+        "upload image",
+        "upload image javascript",
+        "upload image javascript svelte",
+        "upload image javascript sveltekit",
+        "upload file javascript",
+        "svelte image",
+        "cloudinary sveltekit",
+        "cloudinary svelte",
+        "cloudinary upload image",
+        "cloudinary upload widget",
+        "cloudinary upload widget svelte",
+        "cloudinary upload widget sveltekit"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/mKmWW_s5_vM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/mKmWW_s5_vM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/mKmWW_s5_vM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/mKmWW_s5_vM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/mKmWW_s5_vM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Uploading Images & Videos in SvelteKit with the Cloudinary Upload Widget - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=mKmWW_s5_vM",
+      "views": {
+        "count": 1803,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "8cqiKjiGKOo",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 38,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2024-01-02T13:00:05Z",
+      "tags": [
+        "lazy load next js",
+        "lazy load images nextjs",
+        "lazy load images",
+        "image optimization",
+        "image optimization next js",
+        "lazy load cloudinary",
+        "next cloudinary",
+        "nextjs cloudinary",
+        "nextjs image loading",
+        "nextjs image lazy loading",
+        "nextjs image performance",
+        "next js performance optimization"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/8cqiKjiGKOo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/8cqiKjiGKOo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/8cqiKjiGKOo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/8cqiKjiGKOo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/8cqiKjiGKOo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Lazy Load Images In Next.js - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=8cqiKjiGKOo",
+      "views": {
+        "count": 1839,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "bRth3NXVlLA",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 29,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2022-09-06T15:01:56Z",
+      "tags": [
+        "cloudinary",
+        "background remover",
+        "background remover app",
+        "background removal tool",
+        "background removal",
+        "remove background",
+        "remove background from photo",
+        "remove background from image",
+        "cloudinary background removal",
+        "remove background cloudinary",
+        "cloudinary tutorial",
+        "cloudinary api",
+        "on the fly background removal",
+        "remove background javascript",
+        "remove background from image javascript",
+        "cloudinary sdk",
+        "cloudinary url",
+        "cloudinary transformation",
+        "cloudinary ai",
+        "ai background removal"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/bRth3NXVlLA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/bRth3NXVlLA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/bRth3NXVlLA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/bRth3NXVlLA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/bRth3NXVlLA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Remove a Background from an Image in JavaScript with Cloudinary - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=bRth3NXVlLA",
+      "views": {
+        "count": 1712,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "mu6jSx1ToDA",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 13,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-02-28T13:00:36Z",
+      "tags": [
+        "nuxt image cloudinary",
+        "cloudinary nuxt",
+        "nuxt image",
+        "cloudinary",
+        "cloudinary image",
+        "cloudinary image nuxt",
+        "cloudinary nuxt image",
+        "nuxt image optimization"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/mu6jSx1ToDA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/mu6jSx1ToDA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/mu6jSx1ToDA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/mu6jSx1ToDA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/mu6jSx1ToDA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Nuxt Image Component with Cloudinary - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=mu6jSx1ToDA",
+      "views": {
+        "count": 1572,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "9UkPwO9BrJs",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 7,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-05-30T12:00:05Z",
+      "tags": [
+        "embed video",
+        "embed video in html",
+        "embed video player in website",
+        "embed video player",
+        "embed video player online",
+        "embed video player in html",
+        "embedded video player",
+        "cloudinary video player",
+        "cloudinary video player embed",
+        "cloudinary embed video",
+        "iframe video in html",
+        "iframe video",
+        "iframe video cloudinary",
+        "embed video website",
+        "embed video on website html",
+        "cloudinary video",
+        "cloudinary video hosting",
+        "cloudinary video player studio"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/9UkPwO9BrJs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/9UkPwO9BrJs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/9UkPwO9BrJs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/9UkPwO9BrJs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/9UkPwO9BrJs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Embed Videos in HTML with Cloudinary Hosted Video Player - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=9UkPwO9BrJs",
+      "views": {
+        "count": 1575,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "wk5hB1ROWHk",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 25,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-09-12T12:00:52Z",
+      "tags": [
+        "next js responsive image",
+        "next js responsive",
+        "nextjs 13 responsive image",
+        "responsive image in next js",
+        "next js responsive images",
+        "responsive image next js",
+        "next cloudinary",
+        "next cloudinary cldimage",
+        "next cloudinary responsive images",
+        "dynamic image sizes",
+        "nextjs image",
+        "nextjs image component",
+        "nextjs image sizes",
+        "nextjs image performance"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/wk5hB1ROWHk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/wk5hB1ROWHk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/wk5hB1ROWHk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/wk5hB1ROWHk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/wk5hB1ROWHk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Responsive Images in Next.js with Next Cloudinary - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=wk5hB1ROWHk",
+      "views": {
+        "count": 1317,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "KyiBvI2lHdw",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 17,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-06-06T12:00:23Z",
+      "tags": [
+        "react optimize video",
+        "react video optimization",
+        "react video player",
+        "optimize video for website",
+        "optimize video",
+        "optimize video for web",
+        "reactjs videos",
+        "reactjs videos optimization",
+        "reactjs video optimization",
+        "reactjs optimization",
+        "reactjs video performance"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/KyiBvI2lHdw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/KyiBvI2lHdw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/KyiBvI2lHdw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/KyiBvI2lHdw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/KyiBvI2lHdw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Optimize Videos in React with Cloudinary - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=KyiBvI2lHdw",
+      "views": {
+        "count": 1288,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "KQpSq79Lp6o",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 14,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-08-29T12:00:26Z",
+      "tags": [
+        "add shadow to image",
+        "add shadow to image ai",
+        "add shadow to image javascript",
+        "add shadow to image react",
+        "image shadow",
+        "image shadow effect",
+        "ai shadow",
+        "ai shadow effect",
+        "cloudinary",
+        "cloudinary react",
+        "cloudinary dropshadow",
+        "cloudinary drop shadow",
+        "remove background",
+        "remove background from image",
+        "cloudinary remove background",
+        "remove background javascript",
+        "remove background image javascript",
+        "remove background react"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/KQpSq79Lp6o/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/KQpSq79Lp6o/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/KQpSq79Lp6o/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/KQpSq79Lp6o/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/KQpSq79Lp6o/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Remove Background from Image & Add Shadows in React - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=KQpSq79Lp6o",
+      "views": {
+        "count": 1282,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "LJhsn5A0PFE",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 19,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2022-11-29T13:00:12Z",
+      "tags": [
+        "upload assets",
+        "upload image",
+        "upload images",
+        "automatically upload",
+        "automatically upload images",
+        "auto upload",
+        "auto upload cloudinary",
+        "upload image cloudinary",
+        "cloudinary auto upload",
+        "cloudinary auto upload image",
+        "cloudinary auto upload mapping",
+        "auto upload mapping",
+        "cloudinary migration",
+        "cloudinary migrate assets",
+        "cloudinary migrate images",
+        "cloudinary upload api",
+        "cloudinary remote file",
+        "cloudinary remote file upload",
+        "migrate to cloudinary",
+        "s3 to cloudinary",
+        "cloudinary upload"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/LJhsn5A0PFE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/LJhsn5A0PFE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/LJhsn5A0PFE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/LJhsn5A0PFE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/LJhsn5A0PFE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Upload Images & Videos to Cloudinary Automatically with Auto Upload - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=LJhsn5A0PFE",
+      "views": {
+        "count": 1222,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "C09OUunLFdQ",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 8,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-03-07T13:00:08Z",
+      "tags": [
+        "remix image upload",
+        "remid cloudinary image upload",
+        "remid cloudinary",
+        "upload images in remix",
+        "image upload in remix",
+        "cloudinary upload widget remix",
+        "cloudinary upload",
+        "cloudinary upload widget",
+        "cloudinary upload image"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/C09OUunLFdQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/C09OUunLFdQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/C09OUunLFdQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/C09OUunLFdQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/C09OUunLFdQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Uploading Images & Videos in Remix with the Cloudinary Upload Widget - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=C09OUunLFdQ",
+      "views": {
+        "count": 1149,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "_bTX2L0jPzA",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 27,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-11-28T13:00:23Z",
+      "tags": [
+        "upload multiple files in node js",
+        "upload files nodejs",
+        "upload file using node js",
+        "api upload file nodejs",
+        "upload images nodejs",
+        "upload image cloudinary node js",
+        "upload image in node js api",
+        "upload video nodejs",
+        "upload video to cloudinary node js",
+        "upload multiple files",
+        "node file upload",
+        "node file upload api",
+        "node js file upload",
+        "cloudinary file upload",
+        "cloudinary file upload node js",
+        "cloudinary upload multiple images",
+        "cloudinary multiple image upload node js"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/_bTX2L0jPzA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/_bTX2L0jPzA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/_bTX2L0jPzA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/_bTX2L0jPzA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/_bTX2L0jPzA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Upload Multiple Files in Node.js with Cloudinary - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=_bTX2L0jPzA",
+      "views": {
+        "count": 1103,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "griTf7xfyWE",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 8,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-01-31T13:00:32Z",
+      "tags": [
+        "cloudinary vue",
+        "cloudinary vue sdk",
+        "vue js image",
+        "install vue js sdk",
+        "install cloudinary",
+        "install cloudinary vue",
+        "install cloudinary vue js",
+        "vue image optimization",
+        "vue image",
+        "cloudinary install",
+        "configure cloudinary",
+        "configure cloudinary vue",
+        "configure cloudinary vue js"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/griTf7xfyWE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/griTf7xfyWE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/griTf7xfyWE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/griTf7xfyWE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/griTf7xfyWE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Install & Configure Cloudinary in Vue.js - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=griTf7xfyWE",
+      "views": {
+        "count": 1054,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "supYgPofMAw",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 8,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2022-12-06T13:00:24Z",
+      "tags": [
+        "cloudinary",
+        "named transformations",
+        "cloudinary named transformations",
+        "transformations by name",
+        "image transformation",
+        "video transformation",
+        "media transformation",
+        "image and video transformation",
+        "asset transformation",
+        "predefined transformations",
+        "predefined effects",
+        "cloudinary image transformations",
+        "cloudinary video transformations",
+        "cloudinary transformations url",
+        "cloudinary transformations api",
+        "cloudinary transformations how to",
+        "cloudinary transformations overview"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/supYgPofMAw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/supYgPofMAw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/supYgPofMAw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/supYgPofMAw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/supYgPofMAw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Pre-Define Image & Video Transformations by Name in Cloudinary - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=supYgPofMAw",
+      "views": {
+        "count": 974,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "U6tY9FCGKhc",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 4,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-07-03T20:32:14Z",
+      "tags": [
+        "crop video",
+        "crop video tiktok",
+        "crop video tiktok size",
+        "resize video",
+        "resize video for youtube shorts",
+        "resize video for instagram",
+        "resize video without losing quality",
+        "resize video for youtube",
+        "crop video react",
+        "resize video reactjs",
+        "react js video editor",
+        "reactjs video tutorial",
+        "cloudinary video",
+        "cloudinary video react",
+        "cloudinary video cropping",
+        "cloudinary video resize",
+        "cloudinary resize video",
+        "cloudinary resize video for instagram",
+        "cloudinary crop video"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/U6tY9FCGKhc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/U6tY9FCGKhc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/U6tY9FCGKhc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/U6tY9FCGKhc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/U6tY9FCGKhc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Crop & Resize Videos in React with Cloudinary - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=U6tY9FCGKhc",
+      "views": {
+        "count": 855,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "DQUYMyT2MTM",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 14,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-11-14T13:00:10Z",
+      "tags": [
+        "astro form",
+        "astro html forms",
+        "astro js forms",
+        "astro js file upload",
+        "astro js files",
+        "astro js file upload forms",
+        "astro js file upload images",
+        "astrojs cloudinary",
+        "astrojs cloudinary image upload",
+        "astrojs upload to cloudinary"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/DQUYMyT2MTM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/DQUYMyT2MTM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/DQUYMyT2MTM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/DQUYMyT2MTM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/DQUYMyT2MTM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Upload Files Astro.js with Forms - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=DQUYMyT2MTM",
+      "views": {
+        "count": 790,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "2Rt5smsSp-Q",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 19,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-08-22T12:00:03Z",
+      "tags": [
+        "ai generative fill",
+        "generative fill",
+        "outpainting",
+        "nextjs generative ai",
+        "nextjs generative fill",
+        "next cloudinary",
+        "cloudinary nextjs",
+        "next cloudinary cldimage",
+        "next cloudinary generative fill",
+        "image outpainting",
+        "generative fill nextjs"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/2Rt5smsSp-Q/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/2Rt5smsSp-Q/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/2Rt5smsSp-Q/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/2Rt5smsSp-Q/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/2Rt5smsSp-Q/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "AI Generated Images in Next.js Using Generative Fill - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=2Rt5smsSp-Q",
+      "views": {
+        "count": 773,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "3iqoLjMHIvU",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 5,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2022-10-25T12:00:02Z",
+      "tags": [
+        "cloudinary",
+        "cloudinary image",
+        "cloudinary image transformations",
+        "cloudinary transformations",
+        "cloudinary nodejs",
+        "cloudinary node",
+        "cloudinary node sdk",
+        "cloudinary transformations nodejs",
+        "cloudinary overlay",
+        "cloudinary overlay image",
+        "cloudinary overlay image nodejs",
+        "overlay image",
+        "overlay images",
+        "overlay images cloudinary",
+        "overlay images nodejs",
+        "nodejs image manipulation",
+        "node js image processing",
+        "nodejs image",
+        "node js image generator"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/3iqoLjMHIvU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/3iqoLjMHIvU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/3iqoLjMHIvU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/3iqoLjMHIvU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/3iqoLjMHIvU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Overlaying Images Programmatically with Cloudinary Node.js SDK - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=3iqoLjMHIvU",
+      "views": {
+        "count": 754,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "Vr3H3XREkbw",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 9,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-07-18T12:00:32Z",
+      "tags": [
+        "optimize images svelte",
+        "optimize images sveltekit",
+        "cloudinary sveltekit",
+        "cloudinary svelte",
+        "sveltekit image optimization",
+        "svelte image optimization",
+        "svelte background remover",
+        "svelte images",
+        "svelte image cropper",
+        "sveltekit images",
+        "sveltekit image assets",
+        "svelte cloudinary"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Vr3H3XREkbw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Vr3H3XREkbw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Vr3H3XREkbw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Vr3H3XREkbw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/Vr3H3XREkbw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Optimize & Transform Images in Svelte with Svelte Cloudinary - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=Vr3H3XREkbw",
+      "views": {
+        "count": 752,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "SEzrdtp-Rcw",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 9,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-08-01T12:00:22Z",
+      "tags": [
+        "nuxt image optimization",
+        "nuxt image cloudinary",
+        "nuxt 3 image",
+        "optimize images nuxt 3",
+        "nuxt crop image",
+        "nuxt image cropper",
+        "nuxt image resizer",
+        "nuxt image resize image",
+        "nuxt image resolution",
+        "cloudinary nuxt",
+        "nuxt cloudinary",
+        "nuxt image assets",
+        "next image responsive",
+        "nuxt responsive image",
+        "nuxt cldimage"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/SEzrdtp-Rcw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/SEzrdtp-Rcw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/SEzrdtp-Rcw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/SEzrdtp-Rcw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/SEzrdtp-Rcw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Optimize Images in Nuxt with Nuxt Cloudinary - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=SEzrdtp-Rcw",
+      "views": {
+        "count": 676,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "DG2B04Hetyg",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 6,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-06-13T12:00:16Z",
+      "tags": [
+        "trim video",
+        "node video editor",
+        "trim videos node js",
+        "node js video editing",
+        "node js video editor",
+        "cloudinary video",
+        "cloudinary video trimmer",
+        "cloudinary node js",
+        "cloudinary node sdk",
+        "cloudinary nodejs video edit",
+        "cloudinary video effects",
+        "programmatically trim video",
+        "video edit code",
+        "video editing",
+        "video editing api",
+        "video editing api javascript",
+        "video editor api",
+        "video editing sdk",
+        "video editing node js",
+        "node video editing"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/DG2B04Hetyg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/DG2B04Hetyg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/DG2B04Hetyg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/DG2B04Hetyg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/DG2B04Hetyg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Trimming Videos in Node.js with Cloudinary - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=DG2B04Hetyg",
+      "views": {
+        "count": 639,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "TT3IPLXyFt8",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 15,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-09-26T12:00:32Z",
+      "tags": [
+        "netlify image optimization",
+        "optimize images on netlify",
+        "optimize images for website",
+        "image optimization",
+        "netlify images",
+        "netlify performance",
+        "netlify optimization",
+        "netlify asset optimization"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/TT3IPLXyFt8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/TT3IPLXyFt8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/TT3IPLXyFt8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/TT3IPLXyFt8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/TT3IPLXyFt8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Optimize Netlify Images for Faster Page Load in 5 Minutes - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=TT3IPLXyFt8",
+      "views": {
+        "count": 611,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "5tOyDWNuPF0",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 13,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-09-19T12:00:04Z",
+      "tags": [
+        "add watermark to photo",
+        "add a watermark",
+        "add watermark to image",
+        "add logo to images",
+        "add logo to photo",
+        "watermark javascript",
+        "javascript watermark",
+        "cloudinary watermark",
+        "add watermark cloudinary",
+        "add watermark cloudinary image",
+        "add logo to image cloudinary",
+        "add watermark to image cloudinary",
+        "add text to image",
+        "add text to image javascript",
+        "add watermark javascript",
+        "text overlay",
+        "image overlay",
+        "image watermark",
+        "image watermark cloudinary",
+        "image watermark javascript"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/5tOyDWNuPF0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/5tOyDWNuPF0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/5tOyDWNuPF0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/5tOyDWNuPF0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/5tOyDWNuPF0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Add Watermarks to Images in JavaScript with Cloudinary - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=5tOyDWNuPF0",
+      "views": {
+        "count": 586,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "43jRXs8bT_4",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 4,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2022-11-08T13:00:05Z",
+      "tags": [
+        "ken burns",
+        "ken burns effect",
+        "ken burns effect cloudinary",
+        "ken burns effect javascript",
+        "ken burns effect gif",
+        "ken burns effect image",
+        "zoom and pan",
+        "zoom and pan effect",
+        "zoom and pan effect javascript",
+        "cloudinary zoom and pan",
+        "cloudinary",
+        "cloudinary tutorial",
+        "cloudinary transformations",
+        "cloudinary transformation url",
+        "cloudinary transformations api",
+        "cloudinary javascript",
+        "cloudinary javascript sdk",
+        "cloudinary javascript effects",
+        "cloudinary javascript react",
+        "cloudinary react js"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/43jRXs8bT_4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/43jRXs8bT_4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/43jRXs8bT_4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/43jRXs8bT_4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/43jRXs8bT_4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Ken Burns Effect to Zoom & Pan on an Image with the Cloudinary JS URL Gen SDK - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=43jRXs8bT_4",
+      "views": {
+        "count": 556,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "uEBaXzwvMBg",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 3,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-08-08T12:00:57Z",
+      "tags": [
+        "flutter image optimization",
+        "optimize images flutter",
+        "cloudinary flutter",
+        "flutter cloudinary",
+        "flutter image",
+        "flutter image compress",
+        "flutter image editor",
+        "add images to flutter",
+        "add images to flutter app",
+        "flutter optimization",
+        "optimize flutter app performance",
+        "cloudinary install",
+        "cloudinary install flutter",
+        "cloudinary dart",
+        "dart image optimization"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/uEBaXzwvMBg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/uEBaXzwvMBg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/uEBaXzwvMBg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/uEBaXzwvMBg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/uEBaXzwvMBg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Install & Configure Cloudinary in Flutter - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=uEBaXzwvMBg",
+      "views": {
+        "count": 558,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "H8VRR1Vb-vc",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 6,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-10-03T12:00:23Z",
+      "tags": [
+        "cloudinary nextjs",
+        "cloudinary nextjs app router",
+        "cloudinary node js",
+        "cloudinary node sdk",
+        "cloudinary server components",
+        "cloudinary server components react",
+        "server components",
+        "server components react",
+        "react server components",
+        "react server components cloudinary",
+        "nextjs image",
+        "next js image gallery",
+        "nextjs server components",
+        "nextjs server component example",
+        "cloudinary list images",
+        "cloudinary list images react"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/H8VRR1Vb-vc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/H8VRR1Vb-vc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/H8VRR1Vb-vc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/H8VRR1Vb-vc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/H8VRR1Vb-vc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Next.js App Router: List Images Using Cloudinary Node SDK - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=H8VRR1Vb-vc",
+      "views": {
+        "count": 564,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "BNM8VcF19To",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 10,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-01-10T13:00:08Z",
+      "tags": [
+        "video to gif",
+        "video to gif converter",
+        "convert video to gif",
+        "convert video to animation",
+        "convert video to gif hd",
+        "cloudinary gif",
+        "cloudinary video",
+        "cloudinary video to gif",
+        "cloudinary video to webp",
+        "cloudinary video to animated",
+        "cloudinary video to animated image",
+        "cloudinary video to animated gif",
+        "cloudinary animated gif",
+        "gif from video",
+        "cloudinary url format",
+        "cloudinary url",
+        "gif fps changer",
+        "gif loop",
+        "cloudinary loop gif",
+        "webp animation",
+        "animated images for website"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/BNM8VcF19To/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/BNM8VcF19To/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/BNM8VcF19To/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/BNM8VcF19To/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/BNM8VcF19To/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Convert Videos to Gifs & Animated Image Formats with Cloudinary - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=BNM8VcF19To",
+      "views": {
+        "count": 542,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "G-kbmiJcCEE",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 9,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2023-09-05T12:00:09Z",
+      "tags": [
+        "flutter image optimization",
+        "optimize images flutter",
+        "cloudinary flutter",
+        "cloudinary image optimization",
+        "flutter image asset",
+        "flutter performance",
+        "flutter performance optimization",
+        "flutter image compress",
+        "compress image flutter"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/G-kbmiJcCEE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/G-kbmiJcCEE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/G-kbmiJcCEE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/G-kbmiJcCEE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/G-kbmiJcCEE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Optimize Images in Flutter with Cloudinary - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=G-kbmiJcCEE",
+      "views": {
+        "count": 495,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    },
+    {
+      "id": "pXpQ28LuOzY",
+      "category": "Dev Hints",
+      "likes": {
+        "count": 3,
+        "date": "2024-03-20T00:18:46.443Z"
+      },
+      "publishedAt": "2022-11-01T12:00:27Z",
+      "tags": [
+        "cloudinary",
+        "webhooks",
+        "webhook",
+        "webhook tutorial",
+        "webhook example",
+        "webhook url",
+        "webhook notification",
+        "webhook notification url",
+        "webhook notification payload",
+        "cloudinary webhooks",
+        "cloudinary webhook tutorial",
+        "cloudinary notification",
+        "upload webhook",
+        "trigger on upload",
+        "background removal",
+        "remove background",
+        "netlify functions",
+        "netlify functions example",
+        "cloudinary netlify tutorial",
+        "cloudinary webhook api",
+        "cloudinary webhook url",
+        "cloudinary webhook payload"
+      ],
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/pXpQ28LuOzY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/pXpQ28LuOzY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/pXpQ28LuOzY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/pXpQ28LuOzY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/pXpQ28LuOzY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "title": "Using Webhook Notification URLs to Trigger Background Removal with Cloudinary - Dev Hints",
+      "url": "https://www.youtube.com/watch?v=pXpQ28LuOzY",
+      "views": {
+        "count": 450,
+        "date": "2024-03-20T00:18:46.443Z"
+      }
+    }
+  ]
+}
