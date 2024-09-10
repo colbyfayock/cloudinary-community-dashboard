@@ -40,5 +40,11 @@
     "title": "Svelte Cloudinary",
     "npm": "svelte-cloudinary",
     "github": "cloudinary-community/svelte-cloudinary"
+  },
+  {
+    "id": "astro-cloudinary",
+    "title": "Astro Cloudinary",
+    "npm": "astro-cloudinary",
+    "github": "cloudinary-community/astro-cloudinary"
   }
 ]
